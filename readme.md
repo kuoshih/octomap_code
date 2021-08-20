@@ -37,8 +37,10 @@ $ rosrun octomap_code main # Terminal 2
 
 ## Visualization
 $rviz  # Terminal 3    
-Open the rviz configuration in /home/YOUR_NAME/catkin_ws/src/octomap/rviz/octomap_rviz.rviz
-Then you will see the load octomap.
+Open the rviz configuration in /home/YOUR_NAME/catkin_ws/src/octomap/rviz/octomap_rviz.rviz    
+Then you will see the load octomap.    
+NOTE: If you don't find "ColorOccupancy" in rviz, please install it first.    
+$ sudo apt-get install ros-kinetic-octomap-rviz-plugins    
 
 ![alt text](https://github.com/kuoshih/octomap_code/blob/main/document/rviz.png)  
 

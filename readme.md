@@ -7,7 +7,7 @@ This code also demonstrates how to
  1. read .bt files
  2. read .pt files
  3. castray
- 4. delete nodes
+ 4. delete nodes (in fire function)
 You can see the octomap in rviz.
 
 ## About us
@@ -39,7 +39,8 @@ $ rosrun octomap_code main #Terminal 1
 $rviz  
 Open the rviz configuration in /home/YOUR_NAME/catkin_ws/src/octomap/rviz/octomap_rviz.rviz
 Then you will see the load octomap.
-![alt text](https://github.com/kuoshih/octomap_code/blob/master/document/rviz.png)  
+![alt text](https://github.com/kuoshih/octomap_code/blob/main/document/rviz.png)  
+
 ## Edit code  
 You can edit src/main.cpp for your project.
 

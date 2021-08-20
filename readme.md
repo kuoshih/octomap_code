@@ -21,7 +21,7 @@ License: Apache 2.0
 
 ## Compile the code
 $ cd catkin_ws/src  
-$ git clone https://github.com/kuoshih/octomap_code 
+$ git clone https://github.com/kuoshih/octomap_code   
 $ cd ..  
 $ catkin_make or catkin build
 

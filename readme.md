@@ -1,46 +1,45 @@
-![alt text](https://github.com/Hypha-ROS/hypharos_minibot/blob/master/document/logo/HyphaROS_logo_2.png)  
-![alt text](https://github.com/Hypha-ROS/hypharos_minibot/blob/master/document/HyphaROS_MiniBot_photo.jpg)  
 
 ## Abstract
-This code is for final projects of MA5039 Perception and Estimation in Robotics.
-It is a sample code based on HyphaROS Minibot.
-This code activate a node "main" and the other sensor nodes. 
-Main node subscribes three topics -- imu_data, odom, and scan. 
-You can access data from three Callback functions in src/main.cpp.
-There is a maker for landmarks or targets.
-You can see it in rviz.
+This sampel code is to deal with octomap data.
+This code activate a node "octomap_data_node" 
+This node publishe a topic, octomap_loaded. 
+This code also demonstrates how to
+ 1. read .bt files
+ 2. read .pt files
+ 3. castray
+ 4. delete nodes
+You can see the octomap in rviz.
 
 ## About us
 
 Developer:   
 * Kuo-Shih Tseng   
 Contact: kuoshih@math.ncu.edu.tw   
-Date: 2018/10/22  
+Date: 2021/08/20  
 License: Apache 2.0  
 
 
 ## Compile the code
 $ cd catkin_ws/src  
-$ git clone https://github.com/kuoshih/hypharos_minibot   
+$ git clone https://github.com/kuoshih/octomap_code 
 $ cd ..  
-$ catkin_make  
+$ catkin_make or catkin build
 
 Or Download this this code to pi\catkin_ws\src.   
-Unzip hypharos_minibot.zip to replace the original code.
+Unzip octomap_code.zip to replace the original code.
   
 $cd catkin_ws  
-$catkin_make  
+$catkin_make or catkin build 
 
 ## Run the code   
-$roslaunch hypharos_minibot project_sample.launch
+# roscore  # Terminal 1
+$ rosrun octomap_code main #Terminal 1
 
 ## rviz
 $rviz  
-Press "Add" button in rviz, then select "Marker"  
-Set fixed frame as "target"  
-![alt text](https://github.com/kuoshih/hypharos_minibot/blob/master/document/target.png)  
+Open the rviz configuration in /home/YOUR_NAME/catkin_ws/src/octomap/rviz/octomap_rviz.rviz
+Then you will see the load octomap.
+![alt text](https://github.com/kuoshih/octomap_code/blob/master/document/rviz.png)  
 ## Edit code  
 You can edit src/main.cpp for your project.
 
-## About Minibot
-More information about Minibot can be found https://github.com/Hypha-ROS/hypharos_minibot.   

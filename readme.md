@@ -28,7 +28,7 @@ $ catkin_make or catkin build
 Or Download this this code to ~\catkin_ws\src.   
 Unzip octomap_code.zip.
   
-$cd catkin_ws  
+$ cd catkin_ws  
 $ catkin_make or catkin build 
 
 ## Run the code   

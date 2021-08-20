@@ -29,11 +29,11 @@ Or Download this this code to ~\catkin_ws\src.
 Unzip octomap_code.zip to replace the original code.
   
 $cd catkin_ws  
-$catkin_make or catkin build 
+$ catkin_make or catkin build 
 
 ## Run the code   
-$ roscore  # Terminal 1
-$ rosrun octomap_code main #Terminal 1
+$ roscore  # Terminal 1  
+$ rosrun octomap_code main # Terminal 2  
 
 ## rviz
 $rviz  

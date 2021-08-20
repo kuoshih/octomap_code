@@ -25,7 +25,7 @@ $ git clone https://github.com/kuoshih/octomap_code
 $ cd ..  
 $ catkin_make or catkin build
 
-Or Download this this code to pi\catkin_ws\src.   
+Or Download this this code to ~\catkin_ws\src.   
 Unzip octomap_code.zip to replace the original code.
   
 $cd catkin_ws  

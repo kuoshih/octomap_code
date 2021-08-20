@@ -34,10 +34,9 @@ $ catkin_make or catkin build
 ## Run the code   
 $ roscore  # Terminal 1  
 $ rosrun octomap_code main # Terminal 2  
-$ rviz # Terminal 3  
 
-## rviz
-$rviz  
+## Visualization
+$rviz  # Terminal 3    
 Open the rviz configuration in /home/YOUR_NAME/catkin_ws/src/octomap/rviz/octomap_rviz.rviz
 Then you will see the load octomap.
 

@@ -34,6 +34,7 @@ $ catkin_make or catkin build
 ## Run the code   
 $ roscore  # Terminal 1  
 $ rosrun octomap_code main # Terminal 2  
+$ rviz # Terminal 3  
 
 ## rviz
 $rviz  

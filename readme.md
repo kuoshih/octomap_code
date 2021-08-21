@@ -18,6 +18,8 @@ Contact: kuoshih@math.ncu.edu.tw
 Date: 2021/08/20  
 License: Apache 2.0  
 
+## Install octomap
+$ sudo apt-get install ros-kinetic-octomap
 
 ## Compile the code
 $ cd catkin_ws/src  

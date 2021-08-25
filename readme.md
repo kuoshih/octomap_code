@@ -1,6 +1,6 @@
 
 ## Abstract
-This sampel code is to deal with octomap data.
+This sample code is to deal with octomap data.
 This code activate a node "octomap_data_node" 
 This node publishe a topic, octomap_loaded. 
 This code also demonstrates how to

@@ -1,5 +1,5 @@
 /*
- Copyright 2018 NCU MATH.
+ Copyright 2021 NCU MATH.
  Developer: Kuo-Shih Tseng (kuoshih@math.ncu.edu.tw)
  Description: This code activate a node "octomap_data_node" 
  This node publishe a topic, octomap_loaded. 

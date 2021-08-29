@@ -1,0 +1,14 @@
+<launch>
+  <!-- Arguments -->
+  <arg name="open_rviz" default="true"/>
+
+  <!-- Surface coverage -->
+    <node name="main" pkg="octomap_code" type="main"  output="screen">
+    </node>
+
+  <!-- rviz -->
+  <group if="$(arg open_rviz)"> 
+    <node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find octomap_code)/rviz/octomap_rviz.rviz"/>
+  </group>
+</launch>

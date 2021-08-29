@@ -5,7 +5,7 @@
  This node publishe a topic, octomap_loaded. 
  This code also demonstrates how to
  1. read .bt files
- 2. read .pt files
+ 2. read .ot files
  3. castray
  4. delete nodes
  $Revision: 1.0 $,  2021.08.20 
